@@ -91,15 +91,29 @@ function eliminarDelCarrito (e){
     const idBoton = e.currentTarget.id;
     const index = productosEnCarrito.findIndex(producto => producto.id === idBoton);
 
+    
+
 
     productosEnCarrito.splice(index, 1);
     cargarProductosCarrito();
     console.log(productosEnCarrito);
 
+    const repeat = productosEnCarrito.some((repeatProduct) => repeatProduct.id === producto.id);
+
+if(repeat){
+    productosEnCarrito,map((prod) => {
+        if(prod.id === producto.id){
+            prod.cantidad--;
+        }
+    });
+}
+
 
     localStorage.setItem('productos-en-carrito' , JSON.stringify(productosEnCarrito));
 
 }
+
+
 
 
 
