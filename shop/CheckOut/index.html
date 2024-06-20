@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    
+    <link rel="stylesheet" href="style.css">
+    <title>CheckOut</title>
+</head>
+<body>
+    
+<header class="header">
+
+            <img class="logo" src="/imagePROD/icon/MOVIL_OFICIAL_Full Color (2)_page-0001.jpg" height="80px" width="80px" alt="logo">
+            <h1 class="title">T I E N D A</h1>
+            <button class="open-menu" id="open-menu"><i class="bi bi-list"></i></button>
+</header>
+
+<div class="container">
+        <aside>
+            <form action="">
+
+<ul>
+    <div class="datos-personales-blur">
+        <div class="datos-personales">
+
+
+        <div class="datos-personales-titulo">
+            <h3>Datos Personales</h3>
+        </div>
+        <div class="datos-personales-contenedor">
+
+        
+        <li>
+            <label for="name"><small><legend>Nombres y apellidos</legend></small>
+            </label>
+                <input type="text" id="name_lastname" name_lastname="user_name" placeholder="Ingrese Aqui" required>
+        </li>
+        <div class="flex">
+        <li>
+            <label for="cedula"><small><legend>Numero De Documento</legend></small>
+            </label>
+            <input type="number" id="cedula" cedula="user_cedula" placeholder="Ingrese Aqui" required>
+        </li>
+        <li>
+            <label for="celular"><small><legend>Email</legend></small></label>
+            
+            <input type="mail" id="email" celular="user_email" placeholder="Ingrese Aqui" required>
+        </li>
+    </div>
+    </div>
+</div>
+</div>
+</ul>
+<ul>
+    <div class="datos-personal-direccion">
+        <div class="datos-personales-titulo">
+            <h3>Datos De Direccion</h3>
+        </div>
+        <br>
+        <div class="flex">
+        <li>
+            <select name="departamento" id="departamento" class="departamentos" required>
+                <option value="">seleccionar</option>
+                <option value="Amazonas">Amazonas</option>
+                <option value="Antioquia">Antioquia</option>
+                <option value="Arauca">Arauca</option>
+                <option value="Bogota">Bogota D.C.</option>
+                <option value="Bolivar">Bolivar</option>
+                <option value="Boyaca">Boyaca</option>
+                <option value="Caldas">Caldas</option>
+                <option value="Caqueta">Caqueta</option>
+                <option value="Casanare">Casanare</option>
+                <option value="Cauca">Cauca</option>
+                <option value="Cesar">Cesar</option>
+                <option value="Choco">Choco</option>
+                <option value="Córdoba">Córdoba</option>
+                <option value="Cundinamarca">Cundinamarca</option>
+                <option value="Guainía">Guainía</option>
+                <option value="Guaviare">Guaviare</option>
+                <option value="Huila">Huila</option>
+                <option value="Magdalena">Magdalena</option>
+                <option value="Meta">Meta</option>
+                <option value="Nariño">Nariño</option>
+                <option value="Norte De Santander">Norte De Santander</option>
+                <option value="Putumayo">Putumayo</option>
+                <option value="Quindio">Quindio</option>
+                <option value="Risaralda">Risaralda</option>
+                <option value="San Andres y Providencia">San Andres y Providencia</option>
+                <option value="Santander">Santander</option>
+                <option value="Sucre">Sucre</option>
+                <option value="Tolima">Tolima</option>
+                <option value="Valle Del Cauca">Valle Del Cauca</option>
+                <option value="Vaupes">Vaupes</option>
+                <option value="Vichada">Vichada</option>
+            </select>
+        </li>
+        <li>
+            <div class="muni">
+                <label for="ciudad">
+                    <small><legend>Municipio o Ciudad Capital</legend></small>
+                </label>
+                <input type="text" id="ciudad" ciudad="user_ciudad" placeholder="Ingrese Aqui" required>
+            </div>
+        </li>
+    </div>
+        <li>
+            <div class="barrio">
+                <label for="barrio">
+                    <small><legend>Barrio</legend></small>
+                </label>
+                <input type="text" id="barrio" ciudad="user_barrio" placeholder="Ingrese Aqui"required>
+            </div>
+        </li>
+        <div class="nomenclatura"> 
+            <ul>
+                <div class="flex">
+                    
+                <li>
+                    <label for="calle">
+                        <small><legend>Tipo de calle</legend></small>
+                    </label>
+                        <select class="calle" name="nomenclatura" id="nomenclatura" nomenclatura="user_direccion" required>
+                            <option value="">Seleccionar</option>
+                            <option value="Avenida">Avenida</option>
+                            <option value="Avenida calle">Avenida calle</option>
+                            <option value="Avenida carrera">Avenida carrera</option>
+                            <option value="Calle">Calle</option>
+                            <option value="Carrera">Carrera</option>
+                            <option value="Circular">Circular</option>
+                            <option value="Circunvalar">Circunvalar</option>
+                            <option value="diagonal">Diagonal</option>
+                            <option value="Manzana">Manzana</option>
+                            <option value="Trasversal">Trasversal</option>
+                            <option value="Vía">Vía</option>
+
+                        </select>
+                    
+                </li>
+                
+                <li>
+                    
+                    <label for="calle-2">
+                        <small><legend>Carrera</legend></small>
+                    </label>
+                    <input type="text" id="pref" placeholder="Ingrese Aqui" required>
+
+                </li>
+                <li>
+
+                    
+                <div class="flex">
+                        <div class="prim-calle-numero">
+                            <label for="calle-numero">
+                                <small><legend>Número</legend></small>
+                            </label>
+                                <input  type="text" id="Numero" placeholder="#" required>
+                        </div>
+                            <div class="sub-calle-numero">
+                        <p>-</p>
+                            <div class="calle-numero2">
+                                <input type="text" id="Numero1" required>
+                            </div>
+                        </div>
+                </div>
+                    </div>
+                </li>
+        </div>
+                <li>
+                    <div class="piso">
+                    <label for="piso"><legend><small>Piso/Departamento (opcional)</small></legend>
+                    </label>
+                        <input type="text" id="piso" placeholder="Ingrese Aqui">
+                    </div>
+                    </li>
+            </ul>
+    
+</ul>
+
+<div class="check">
+    <div>
+    <p>¿Es tu trabajo o casa?</p>
+    <div class="sub-check">
+        
+
+        <div class="laboral" >
+            <input type="checkbox" id="laboral">
+            <label for="laboral">Laboral<i class="bi bi-briefcase-fill"></i></label>
+        </div>
+
+        <div class="residencial">
+            <input type="checkbox" id="residencial" >
+            <label for="residencial">Residencial<i class="bi bi-house"></i></label>
+        </div>
+    </div>
+</div>
+
+
+
+</div>
+<div class="referencia">
+    <label for="ref">
+        <legend><small>Referencias adicionales de esta direccion</small></legend>
+    </label>
+    <textarea name="referencia" id="referencia" cols="45" rows="5"
+    placeholder="Ingrese alguna referencia adicional de esta dirección."></textarea>
+</div>
+<button type="submit" class="submit">enviar</button>
+
+    </form> 
+</aside>
+
+
+<main>
+                <div class="carrito-productos">
+                    <!-- aqui se van a cargar los productos de el carrito-->
+        <div class="carrito-producto">
+                    <img class="carrito-producto-imagen" src="/imagePROD/iphone 14 1.jpg" alt="${producto.titulo}">
+        <div class="gap">
+        <div class="carrito-producto-titulo">
+            <small>Titulo</small>
+            <h3>iphone 14 nuevo</h3>
+        </div>
+        <div class="carrito-producto-cantidad">
+            <small>Cantidad</small>
+            <p>1</p>
+        </div>
+    </div>
+</div>
+<div class="carrito-producto">
+    <img class="carrito-producto-imagen" src="/imagePROD/iphone 14 1.jpg" alt="${producto.titulo}">
+<div class="gap">
+<div class="carrito-producto-titulo">
+<small>Titulo</small>
+<h3>iphone 14 nuevo</h3>
+</div>
+<div class="carrito-producto-cantidad">
+<small>Cantidad</small>
+<p>1</p>
+</div>
+</div>
+</div>
+<div class="carrito-producto">
+    <img class="carrito-producto-imagen" src="/imagePROD/iphone 14 1.jpg" alt="${producto.titulo}">
+<div class="gap">
+<div class="carrito-producto-titulo">
+<small>Titulo</small>
+<h3>iphone 14 nuevo</h3>
+</div>
+<div class="carrito-producto-cantidad">
+<small>Cantidad</small>
+<p>1</p>
+</div>
+</div>
+</div>
+<div class="carrito-producto">
+    <img class="carrito-producto-imagen" src="/imagePROD/iphone 14 1.jpg" alt="${producto.titulo}">
+<div class="gap">
+<div class="carrito-producto-titulo">
+<small>Titulo</small>
+<h3>iphone 14 nuevo</h3>
+</div>
+<div class="carrito-producto-cantidad">
+<small>Cantidad</small>
+<p>1</p>
+</div>
+</div>
+</div>
+<div class="carrito-producto">
+    <img class="carrito-producto-imagen" src="/imagePROD/iphone 14 1.jpg" alt="${producto.titulo}">
+<div class="gap">
+<div class="carrito-producto-titulo">
+<small>Titulo</small>
+<h3>iphone 14 nuevo</h3>
+</div>
+<div class="carrito-producto-cantidad">
+<small>Cantidad</small>
+<p>1</p>
+</div>
+</div>
+</div>
+<div class="carrito-producto">
+    <img class="carrito-producto-imagen" src="/imagePROD/iphone 14 1.jpg" alt="${producto.titulo}">
+<div class="gap">
+<div class="carrito-producto-titulo">
+<small>Titulo</small>
+<h3>iphone 14 nuevo</h3>
+</div>
+<div class="carrito-producto-cantidad">
+<small>Cantidad</small>
+<p>1</p>
+</div>
+</div>
+</div>
+</div>
+
+<div class="check-out">
+            <div class="precio">
+                <div class="total-titulo">
+                    <h4>Total a pagar</h4>
+                </div>
+                <div class="precio-total">
+                    <span>$ 200.000</span>
+                </div>
+            </div>
+            <div class="pagar">
+                <button class="pay" id="pay">
+                    Pago
+                </button>
+            </div> 
+        </div>    
+        </main>
+    </div>
+    
+        <script src="/shop/js/carrito.js"></script>
+        <script src="/shop/js/menu.js"></script>
+
+</body>
+</html>
