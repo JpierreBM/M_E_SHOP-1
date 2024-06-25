@@ -378,6 +378,17 @@ border: 1px solid var(--clr-main);
     transition-duration: .5s;
     
 }
+.carrito-acciones-comprar a{
+
+
+    padding: 1rem;
+
+    text-transform: uppercase;
+    color: var(--clr-white);
+    cursor: pointer;
+    transition-duration: .5s;
+    
+}
 
 .carrito-acciones-comprar:hover{
     background-color: #000;

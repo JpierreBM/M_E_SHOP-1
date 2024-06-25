@@ -98,15 +98,9 @@ function eliminarDelCarrito (e){
     cargarProductosCarrito();
     console.log(productosEnCarrito);
 
-    const repeat = productosEnCarrito.some((repeatProduct) => repeatProduct.id === producto.id);
+    const repeat = productosEnCarrito.some(repeatProduct => repeatProduct.id === producto.id);
 
-if(repeat){
-    productosEnCarrito,map((prod) => {
-        if(prod.id === producto.id){
-            prod.cantidad--;
-        }
-    });
-}
+
 
 
     localStorage.setItem('productos-en-carrito' , JSON.stringify(productosEnCarrito));
