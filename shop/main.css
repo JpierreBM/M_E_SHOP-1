@@ -31,11 +31,40 @@ a{
 .container{
     display: grid;
     grid-template-columns: 1fr 4fr;
-    background-color: #000;
-    color: #fff;
+    color: #998542;
+    z-index: 2;
+    position: absolute;
+    overflow: none;
 }
 
+.container-save{
+    position: absolute;
+    z-index: 2;
+}
+.background{
+    z-index: 0;
+
+    margin: 0;
+    min-height: 100vh;
+    
+    background: repeating-radial-gradient(
+        circle at center,
+        #998542 0 10%,
+        #111 10% 20%
+    );
+    touch-action: none;
+}
+
+canvas{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    margin: 0;
+}
+
+
 aside{
+
     padding: 2rem;
     padding-right: 0;
     color:var(--clr-main);
@@ -45,7 +74,9 @@ aside{
     /*para que se queden arriba del todo*/
     position: sticky;
     top: 0;
-    height: 100vh;
+    height: 90vh;
+    z-index: 1;
+    margin: 0;
     /*--------------*/
 }
 header{
@@ -55,7 +86,6 @@ header{
 
 
 .logo{
-    
     border-radius: 49%;
     height: 140px;
     width: 140px;
@@ -186,12 +216,20 @@ border: 1px solid #ffffff;
 }
 
 main{
+    overflow-y: visible;
+    overflow-x: hidden;
     background-color: var(--clr-white);
     margin: 1rem;
     border-radius: 2rem;
     margin-left: 0;
     padding: 3rem;
-
+    position: relative;
+    width: fit-content;
+    height: 93vh;
+min-width: 100%;
+}
+::-webkit-scrollbar{
+    width: 2em;
 }
 
 .titulo-principal{
@@ -532,3 +570,5 @@ margin: 0;
 
 
 }
+
+/* fondo animado */

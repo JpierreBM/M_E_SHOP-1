@@ -3,7 +3,7 @@ const productos = [
         id:"13 nuevo",
         titulo:"iPhone 13",
         color:"negro",
-        imagen: "/imagePROD/iphone/iphone 13/mlq63lz_a.webp",
+        imagen: "/M_E_SHOP/imagePROD/iphone/iphone 13/mlq63lz_a.webp",
         categoria:{
             nombre: "nuevo",
             almacenamiento: "128GB",
@@ -15,7 +15,7 @@ const productos = [
         id:"14 nuevo",
         titulo:"iPhone 14",
         color:"#",
-        imagen: "/imagePROD/iphone/iphone 14/iphone_14_blue_pdp_image_position-1a_laes-azul.webp",
+        imagen: "/M_E_SHOP/imagePROD/iphone/iphone 14/iphone_14_blue_pdp_image_position-1a_laes-azul.webp",
         categoria:{
             nombre: "nuevo",
             almacenamiento: "128GB",
@@ -28,7 +28,7 @@ const productos = [
         id:"15 nuevo",
         titulo:"iPhone 15",
         color:"#",
-        imagen: "/imagePROD/iphone/iphone 15/iphone15_plus_black_pdp_image_position-1__coes_2.webp",
+        imagen: "/M_E_SHOP/imagePROD/iphone/iphone 15/iphone15_plus_black_pdp_image_position-1__coes_2.webp",
         categoria:{
             nombre: "nuevo",
             almacenamiento: "128GB",
@@ -41,7 +41,7 @@ const productos = [
         id:"15 Pro nuevo",
         titulo:"iPhone 15 Pro",
         color:"#",
-        imagen: "/imagePROD/iphone/iphone 15/iphone 15 pro max/iphone_15_pro_max_blue_titanium_pdp_image_position-1__coes.webp",
+        imagen: "/M_E_SHOP/imagePROD/iphone/iphone 15/iphone 15 pro max/iphone_15_pro_max_blue_titanium_pdp_image_position-1__coes.webp",
         categoria:{
             nombre: "nuevo",
             almacenamiento: "128GB",
@@ -54,7 +54,7 @@ const productos = [
         id:"15 Pro Max nuevo",
         titulo:"iPhone 15 Pro Max",
         color:"#",
-        imagen: "/imagePROD/iphone/iphone 15/iphone 15 pro max/iphone_15_pro_max_blue_titanium_pdp_image_position-1__coes.webp",
+        imagen: "/M_E_SHOP/imagePROD/iphone/iphone 15/iphone 15 pro max/iphone_15_pro_max_blue_titanium_pdp_image_position-1__coes.webp",
         categoria:{
             nombre: "nuevo",
             almacenamiento: "256GB",
@@ -67,7 +67,7 @@ const productos = [
         id:"whatch se 40mm nuevo",
         titulo:"Apple Whatch SE 40mm",
         color:"#",
-        imagen: "/imagePROD/apple Whatch/se/apple_watch_se_gps_40mm_midnight_aluminum_midnight_sport_band_pdp_image_2023_position-1__coes.webp",
+        imagen: "/M_E_SHOP/imagePROD/apple Whatch/se/apple_watch_se_gps_40mm_midnight_aluminum_midnight_sport_band_pdp_image_2023_position-1__coes.webp",
         categoria:{
             nombre: "nuevo",
             id:"nuevo",
@@ -79,7 +79,7 @@ const productos = [
         id:"whatch s6 44mm usado",
         titulo:"Apple Whatch S6 44mm",
         color:"#",
-        imagen: "/imagePROD/apple Whatch/s9/watch_s9_lte_41mm_midnight_aluminum_midnight_sport_band_pdp_image_position-1__coes_1_1.webp",
+        imagen: "/M_E_SHOP/imagePROD/apple Whatch/s9/watch_s9_lte_41mm_midnight_aluminum_midnight_sport_band_pdp_image_position-1__coes_1_1.webp",
         categoria:{
             nombre: "usado",
             id:"usado",
@@ -92,7 +92,7 @@ const productos = [
         id:"11 usado",
         titulo:"iphone 11",
         color:"#",
-        imagen: "/imagePROD/iphone/iphone 15/iphone 15 pro max/iphone_15_pro_max_blue_titanium_pdp_image_position-1__coes.webp",
+        imagen: "/M_E_SHOP/imagePROD/iphone/iphone 15/iphone 15 pro max/iphone_15_pro_max_blue_titanium_pdp_image_position-1__coes.webp",
         categoria:{
             nombre: "usado",
             almacenamiento: "256GB",
@@ -104,7 +104,7 @@ const productos = [
         id:"12 usado",
         titulo:"iPhone 15 Pro Max",
         color:"#",
-        imagen: "/imagePROD/iphone/iphone 15/iphone 15 pro max/iphone_15_pro_max_blue_titanium_pdp_image_position-1__coes.webp",
+        imagen: "/M_E_SHOP/imagePROD/iphone/iphone 15/iphone 15 pro max/iphone_15_pro_max_blue_titanium_pdp_image_position-1__coes.webp",
         categoria:{
             nombre: "usado",
             almacenamiento: "256GB",
@@ -116,7 +116,7 @@ const productos = [
         id:"13 usado",
         titulo:"iPhone 15 Pro Max",
         color:"#",
-        imagen: "/imagePROD/iphone/iphone 15/iphone 15 pro max/iphone_15_pro_max_blue_titanium_pdp_image_position-1__coes.webp",
+        imagen: "/M_E_SHOP/imagePROD/iphone/iphone 15/iphone 15 pro max/iphone_15_pro_max_blue_titanium_pdp_image_position-1__coes.webp",
         categoria:{
             nombre: "usado",
             almacenamiento: "256GB",
@@ -128,7 +128,7 @@ const productos = [
         id:"14 usado",
         titulo:"iPhone 15 Pro Max",
         color:"#",
-        imagen: "/imagePROD/iphone/iphone 15/iphone 15 pro max/iphone_15_pro_max_blue_titanium_pdp_image_position-1__coes.webp",
+        imagen: "/M_E_SHOP/imagePROD/iphone/iphone 15/iphone 15 pro max/iphone_15_pro_max_blue_titanium_pdp_image_position-1__coes.webp",
         categoria:{
             nombre: "usado",
             almacenamiento: "256GB",
@@ -140,7 +140,7 @@ const productos = [
         id:"15 usado",
         titulo:"iPhone 15 Pro Max",
         color:"#",
-        imagen: "/imagePROD/iphone/iphone 15/iphone 15 pro max/iphone_15_pro_max_blue_titanium_pdp_image_position-1__coes.webp",
+        imagen: "/M_E_SHOP/imagePROD/iphone/iphone 15/iphone 15 pro max/iphone_15_pro_max_blue_titanium_pdp_image_position-1__coes.webp",
         categoria:{
             nombre: "usado",
             almacenamiento: "256GB",
@@ -152,7 +152,7 @@ const productos = [
         id:"15 Pro Max usado",
         titulo:"iPhone 15 Pro Max",
         color:"#",
-        imagen: "/imagePROD/iphone/iphone 15/iphone 15 pro max/iphone_15_pro_max_blue_titanium_pdp_image_position-1__coes.webp",
+        imagen: "/M_E_SHOP/imagePROD/iphone/iphone 15/iphone 15 pro max/iphone_15_pro_max_blue_titanium_pdp_image_position-1__coes.webp",
         categoria:{
             nombre: "usado",
             almacenamiento: "256GB",
@@ -164,7 +164,7 @@ const productos = [
         id:"15 Pro usado",
         titulo:"iPhone 15 Pro Max",
         color:"#",
-        imagen: "/imagePROD/iphone/iphone 15/iphone 15 pro max/iphone_15_pro_max_blue_titanium_pdp_image_position-1__coes.webp",
+        imagen: "/M_E_SHOP/imagePROD/iphone/iphone 15/iphone 15 pro max/iphone_15_pro_max_blue_titanium_pdp_image_position-1__coes.webp",
         categoria:{
             nombre: "usado",
             almacenamiento: "256GB",
@@ -176,7 +176,7 @@ const productos = [
         id:"12 Pro usado",
         titulo:"iPhone 15 Pro Max",
         color:"#",
-        imagen: "/imagePROD/iphone/iphone 15/iphone 15 pro max/iphone_15_pro_max_blue_titanium_pdp_image_position-1__coes.webp",
+        imagen: "/M_E_SHOP/imagePROD/iphone/iphone 15/iphone 15 pro max/iphone_15_pro_max_blue_titanium_pdp_image_position-1__coes.webp",
         categoria:{
             nombre: "usado",
             almacenamiento: "256GB",
@@ -188,7 +188,7 @@ const productos = [
         id:"se 2 usado",
         titulo:"iPhone 15 Pro Max",
         color:"#",
-        imagen: "/imagePROD/iphone/iphone 15/iphone 15 pro max/iphone_15_pro_max_blue_titanium_pdp_image_position-1__coes.webp",
+        imagen: "/M_E_SHOP/imagePROD/iphone/iphone 15/iphone 15 pro max/iphone_15_pro_max_blue_titanium_pdp_image_position-1__coes.webp",
         categoria:{
             nombre: "usado",
             almacenamiento: "256GB",
@@ -200,7 +200,7 @@ const productos = [
         id:"se usado",
         titulo:"iPhone 15 Pro Max",
         color:"#",
-        imagen: "/imagePROD/iphone/iphone 15/iphone 15 pro max/iphone_15_pro_max_blue_titanium_pdp_image_position-1__coes.webp",
+        imagen: "/M_E_SHOP/imagePROD/iphone/iphone 15/iphone 15 pro max/iphone_15_pro_max_blue_titanium_pdp_image_position-1__coes.webp",
         categoria:{
             nombre: "usado",
             almacenamiento: "256GB",
@@ -377,6 +377,5 @@ function actualizarContador(){
     contador.innerText = nuevoContador;
     
 }
-
 
 

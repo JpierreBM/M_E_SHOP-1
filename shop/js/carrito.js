@@ -1,5 +1,5 @@
 let productosEnCarrito = JSON.parse(localStorage.getItem('productos-en-carrito'));
-
+console.log(productosEnCarrito);
 const contenedorCarritoVacio = document.querySelector("#carrito-vacio");
 
 const contenedorCarritoProductos = document.querySelector("#carrito-productos");
@@ -96,7 +96,6 @@ function eliminarDelCarrito (e){
 
     productosEnCarrito.splice(index, 1);
     cargarProductosCarrito();
-    console.log(productosEnCarrito);
 
     const repeat = productosEnCarrito.some(repeatProduct => repeatProduct.id === producto.id);
 
@@ -130,5 +129,9 @@ function  actualizaTotal (){
     const totalCalculado = productosEnCarrito.reduce((acc, producto) => acc + (producto.precio), 0);
 
     precioTotal.innerText = `$${totalCalculado}`;
-}
+    localStorage.setItem('total-calculado', JSON.stringify(totalCalculado));
+    
 
+}
+var guardadoTotal =  JSON.parse(localStorage.getItem('total-calculado'));
+console.log(guardadoTotal);
